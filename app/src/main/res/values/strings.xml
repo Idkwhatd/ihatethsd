@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lock Screen Changer</string>
+
+    <string name="pick_photo">Choose a photo</string>
+    <string name="set_lock">Set as lock screen</string>
+    <string name="set_both">Set as lock screen + home screen</string>
+    <string name="clear_lock">Remove lock screen photo</string>
+    <string name="clear_lock_hint">The lock screen will show your home screen wallpaper instead.</string>
+    <string name="preview_description">Selected photo</string>
+
+    <string name="status_ready">Choose a photo, then tap \"Set as lock screen\".</string>
+    <string name="status_loading">Loading photo…</string>
+    <string name="status_loaded">Looks good? Tap \"Set as lock screen\".</string>
+    <string name="status_setting">Changing wallpaper…</string>
+    <string name="status_done">Done! Lock your phone to check.</string>
+    <string name="status_cleared">Lock screen photo removed. Lock your phone to check.</string>
+    <string name="status_refused">The phone refused the change. If a theme, Glance, Samsung\'s Dynamic Lock Screen or another lock screen app is turned on, switch it off and try again.</string>
+    <string name="status_blocked">This phone blocks wallpaper changes. That is usually a work, school or carrier device-management profile, or a parental-control app, and no app can override it. Look in Settings for \"Device admin apps\" or a work profile; whoever set it up has to remove it.</string>
+    <string name="status_error">Something went wrong: %1$s</string>
+    <string name="error_not_image">That file isn\'t a supported image.</string>
+</resources>
