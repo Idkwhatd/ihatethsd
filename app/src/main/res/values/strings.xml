@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lock Screen Changer</string>
+    <string name="editor_description">Wallpaper preview. Drag to move the photo, pinch to zoom, double-tap to fit or fill.</string>
 
-    <string name="pick_photo">Choose a photo</string>
-    <string name="set_lock">Set as lock screen</string>
-    <string name="set_both">Set as lock screen + home screen</string>
-    <string name="clear_lock">Remove lock screen photo</string>
-    <string name="clear_lock_hint">The lock screen will show your home screen wallpaper instead.</string>
-    <string name="preview_description">Selected photo</string>
+    <string name="empty_title">Choose a photo</string>
+    <string name="empty_message">Then drag, pinch and rotate it until it looks right.</string>
+    <string name="blocked_title">Wallpaper changes are blocked</string>
 
-    <string name="status_ready">Choose a photo, then tap \"Set as lock screen\".</string>
-    <string name="status_loading">Loading photo…</string>
-    <string name="status_loaded">Looks good? Tap \"Set as lock screen\".</string>
-    <string name="status_setting">Changing wallpaper…</string>
-    <string name="status_done">Done! Lock your phone to check.</string>
-    <string name="status_cleared">Lock screen photo removed. Lock your phone to check.</string>
+    <string name="tool_rotate">Rotate</string>
+    <string name="tool_fit">Fit</string>
+    <string name="tool_fill">Fill</string>
+    <string name="tool_clock">Clock</string>
+    <string name="tool_reset">Reset</string>
+    <string name="dim">Dim</string>
+    <string name="background">Edges</string>
+    <string name="background_blur">Blur</string>
+    <string name="background_black">Black</string>
+    <string name="background_white">White</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="change_photo">Change photo</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+
+    <string name="apply_title">Set wallpaper on</string>
+    <string name="apply_lock">Lock screen</string>
+    <string name="apply_lock_detail">Only the lock screen changes</string>
+    <string name="apply_home">Home screen</string>
+    <string name="apply_home_detail">The lock screen keeps its current photo</string>
+    <string name="apply_both">Lock and home screens</string>
+    <string name="apply_both_detail">Use this photo everywhere</string>
+    <string name="apply_colors_note">On Android 12 and newer, a new wallpaper can also re-color your keyboard and system accents. Menu → Keyboard colors changed? shows how to keep the colors you want.</string>
+
+    <string name="done_lock">Lock screen updated. Lock your phone to see it.</string>
+    <string name="done_home">Home screen updated.</string>
+    <string name="done_both">Lock and home screens updated.</string>
+    <string name="done_cleared">Lock screen photo removed.</string>
+
+    <string name="remove_lock_photo">Remove lock screen photo</string>
+    <string name="remove_lock_photo_message">Your lock screen will show your home screen wallpaper instead.</string>
+    <string name="remove">Remove</string>
+
+    <string name="keyboard_help_title">Keyboard colors changed?</string>
+    <string name="keyboard_help_message">Android 12 and newer pick your phone\'s accent colors, keyboard included, from the wallpaper. On many phones they follow whichever wallpaper changed last, so a new lock screen photo can re-color the keyboard too. No app can change the wallpaper without this happening.\n\nTo keep the colors you want:\n\n• Long-press your home screen, open Wallpaper &amp; style, and pick one of the Basic colors (on Samsung: Color palette). Those stay put when the wallpaper changes.\n\n• Or give the keyboard its own theme: in Gboard, open Settings → Theme and pick anything other than Dynamic color.</string>
+
+    <string name="error_title">Couldn\'t change the wallpaper</string>
+    <string name="load_error_title">Couldn\'t open that photo</string>
     <string name="status_refused">The phone refused the change. If a theme, Glance, Samsung\'s Dynamic Lock Screen or another lock screen app is turned on, switch it off and try again.</string>
     <string name="status_blocked">This phone blocks wallpaper changes. That is usually a work, school or carrier device-management profile, or a parental-control app, and no app can override it. Look in Settings for \"Device admin apps\" or a work profile; whoever set it up has to remove it.</string>
     <string name="status_error">Something went wrong: %1$s</string>

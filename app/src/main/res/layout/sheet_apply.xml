@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="8dp"
+        android:text="@string/apply_title"
+        android:textAppearance="?attr/textAppearanceTitleLarge" />
+
+    <LinearLayout
+        android:id="@+id/option_lock"
+        style="@style/SheetOption">
+
+        <ImageView
+            style="@style/SheetOptionIcon"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_lock" />
+
+        <LinearLayout style="@style/SheetOptionText">
+
+            <TextView
+                style="@style/SheetOptionTitle"
+                android:text="@string/apply_lock" />
+
+            <TextView
+                style="@style/SheetOptionDetail"
+                android:text="@string/apply_lock_detail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_home"
+        style="@style/SheetOption">
+
+        <ImageView
+            style="@style/SheetOptionIcon"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_home" />
+
+        <LinearLayout style="@style/SheetOptionText">
+
+            <TextView
+                style="@style/SheetOptionTitle"
+                android:text="@string/apply_home" />
+
+            <TextView
+                style="@style/SheetOptionDetail"
+                android:text="@string/apply_home_detail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_both"
+        style="@style/SheetOption">
+
+        <ImageView
+            style="@style/SheetOptionIcon"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_smartphone" />
+
+        <LinearLayout style="@style/SheetOptionText">
+
+            <TextView
+                style="@style/SheetOptionTitle"
+                android:text="@string/apply_both" />
+
+            <TextView
+                style="@style/SheetOptionDetail"
+                android:text="@string/apply_both_detail" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/colors_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:drawablePadding="12dp"
+        android:text="@string/apply_colors_note"
+        android:textAppearance="?attr/textAppearanceBodySmall"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:drawableStartCompat="@drawable/ic_info"
+        app:drawableTint="?attr/colorOnSurfaceVariant" />
+</LinearLayout>

@@ -1,10 +1,16 @@
 # Lock Screen Changer
 
-A tiny Android app that does one thing: replaces the photo on your lock screen.
+A small Android app for replacing the photo on your lock screen and getting it to look right.
 
-- **Choose a photo** from your gallery, preview it, then **Set as lock screen** (or lock + home screen).
-- **Remove lock screen photo** drops the lock screen picture entirely, so the lock screen shows your
-  home screen wallpaper instead.
+- **Edit before you set it.** The preview is shaped like your phone's screen. Drag to move the photo,
+  pinch to zoom, double-tap to switch between fitting the whole photo and filling the screen.
+- **Rotate**, **Reset**, and a **Dim** slider that darkens the photo so the clock stays readable.
+- **Edges:** when the whole photo is fitted, choose what fills the gaps: a blurred copy of the photo,
+  black or white.
+- **Clock preview** shows roughly where the lock screen clock lands, so it doesn't cover a face.
+- **Set wallpaper** on the lock screen, the home screen, or both.
+- **Menu → Remove lock screen photo** drops the lock screen picture entirely, so the lock screen shows
+  your home screen wallpaper instead.
 - If something on the phone is blocking wallpaper changes, the app tells you so instead of failing silently.
 
 Needs Android 7.0 or newer. It asks for only one permission (changing the wallpaper) and has no
@@ -21,9 +27,22 @@ internet access.
    tap **Settings**, turn on **Allow from this source**, then go back.
 3. Tap **Install**. If Play Protect says the app is from an unknown developer, tap
    **More details → Install anyway**. That warning shows up for any app that isn't from the Play Store.
-4. Open **Lock Screen Changer**, pick a photo, tap **Set as lock screen**, then lock the phone to check.
+4. Open **Lock Screen Changer**, choose a photo, adjust it, tap **Set wallpaper → Lock screen**, then lock
+   the phone to check.
 
+Already have an older version? Install the new one over it; no need to uninstall first.
 After it works you can uninstall the app; the new lock screen stays.
+
+## Why did my keyboard change color?
+
+On Android 12 and newer, the phone picks its accent colors (keyboard, quick settings, many apps) from the
+wallpaper. On many phones they follow whichever wallpaper changed last, so even a new lock screen photo can
+re-color the keyboard. No app can set a wallpaper without this happening. To keep colors you like:
+
+- Long-press the home screen → **Wallpaper & style** → pick one of the **Basic colors**
+  (Samsung: **Color palette**). Those stay put when the wallpaper changes.
+- Or give the keyboard its own theme: in Gboard, **Settings → Theme** → anything other than
+  **Dynamic color**.
 
 ## If it still won't change
 
@@ -56,6 +75,11 @@ against wallpaper changes, and only whoever manages it can lift that.
 Needs JDK 17+ and the Android SDK (platform 35).
 
 ```sh
-./gradlew assembleDebug
-# APK: app/build/outputs/apk/debug/app-debug.apk
+./gradlew assembleRelease       # APK: app/build/outputs/apk/release/app-release.apk
+./gradlew testDebugUnitTest     # also saves UI screenshots to app/build/screenshots/
 ```
+
+Builds are signed with the debug key in `keystore/`, so a build from any machine installs as an update
+over the app already on the phone.
+
+Icons are [Material Symbols](https://github.com/google/material-design-icons) (Apache 2.0).
