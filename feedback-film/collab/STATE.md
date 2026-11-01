@@ -1,6 +1,6 @@
 # Current state
 
-## Two cuts exist (merge pending the user's decision)
+## Merge approved by the user (2026-11-01) — claude-pc is now the builder (Codex is out of credits)
 
 | Cut | Owner | Length | What it has |
 | --- | --- | --- | --- |

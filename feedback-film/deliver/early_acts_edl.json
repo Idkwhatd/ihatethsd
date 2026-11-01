@@ -1,0 +1,317 @@
+{
+ "about": "Source in/out points (seconds) for the public-domain early acts, against pipeline/footage_list.json (fetch with pipeline/fetch_footage.py). All films first published before 1931. Picture only: the archive uploads' soundtracks are modern additions and were never used.",
+ "verified": "Every in/out below was used in cloud cut v3 and passed pipeline/flashcheck.py, except entries under 'alternates'.",
+ "chapters": [
+  {
+   "card": "I. RAZOR",
+   "years": "1901–1929",
+   "suggested_order_note": "Opens on Buñuel's razor, then the first trick films, and closes on Méliès's rocket in the moon's eye.",
+   "clips": [
+    {
+     "key": "chien2",
+     "in": 63.0,
+     "out": 94.3,
+     "title": "Un Chien Andalou",
+     "credit": "Luis Buñuel & Salvador Dalí, 1929",
+     "note": "Razor, moon, hand at the eye. Out point is before the blade touches the eye (slice ~95 s); keep it for a class audience. This upload is the 1960 sound version; its title cards run 0–60 s."
+    },
+    {
+     "key": "rubber",
+     "in": 72.0,
+     "out": 90.0,
+     "title": "The Man with the Rubber Head",
+     "credit": "Georges Méliès, 1901",
+     "note": "The head inflating."
+    },
+    {
+     "key": "melomane",
+     "in": 30.0,
+     "out": 50.0,
+     "title": "The Melomaniac",
+     "credit": "Georges Méliès, 1903",
+     "note": "Heads as notes on a stave."
+    },
+    {
+     "key": "hotel",
+     "in": 204.0,
+     "out": 220.0,
+     "title": "The Electric Hotel",
+     "credit": "Segundo de Chomón, 1908",
+     "note": "Boots that move by themselves. The upload's title card says 1905; the film is usually dated 1908."
+    },
+    {
+     "key": "hotel",
+     "in": 322.0,
+     "out": 334.0,
+     "title": "The Electric Hotel",
+     "credit": "Segundo de Chomón, 1908",
+     "note": "Hair combing itself."
+    },
+    {
+     "key": "cohl",
+     "in": 7.0,
+     "out": 37.0,
+     "title": "Fantasmagorie",
+     "credit": "Émile Cohl, 1908"
+    },
+    {
+     "key": "moon",
+     "in": 421.5,
+     "out": 441.5,
+     "title": "A Trip to the Moon",
+     "credit": "Georges Méliès, 1902",
+     "note": "The moon approaches; the rocket hits its eye at ~439.2 s."
+    }
+   ]
+  },
+  {
+   "card": "II. DREAM",
+   "years": "1923–1929",
+   "clips": [
+    {
+     "key": "retour",
+     "in": 116.0,
+     "out": 134.0,
+     "title": "Le Retour à la raison",
+     "credit": "Man Ray, 1923",
+     "note": "Rotating paper shapes and the striped torso. Avoid 12–32 s (rayograph flicker)."
+    },
+    {
+     "key": "entracte",
+     "in": 168.0,
+     "out": 182.0,
+     "title": "Entr'acte",
+     "credit": "René Clair, 1924",
+     "note": "The ballerina seen from below. Avoid 40–54 s: racist caricature dolls."
+    },
+    {
+     "key": "emak",
+     "in": 929.0,
+     "out": 944.0,
+     "title": "Emak-Bakia",
+     "credit": "Man Ray, 1926",
+     "note": "The eyes painted on her eyelids open. Upload's music credits start at ~947 s."
+    },
+    {
+     "key": "ghosts",
+     "in": 171.0,
+     "out": 185.0,
+     "title": "Ghosts Before Breakfast",
+     "credit": "Hans Richter, 1928",
+     "note": "Flying hats; starts after the revolver shots."
+    },
+    {
+     "key": "seashell",
+     "in": 760.0,
+     "out": 774.0,
+     "title": "The Seashell and the Clergyman",
+     "credit": "Germaine Dulac, 1928"
+    },
+    {
+     "key": "usher",
+     "in": 674.0,
+     "out": 691.0,
+     "title": "The Fall of the House of Usher",
+     "credit": "James Sibley Watson & Melville Webber, 1928",
+     "note": "Prism-multiplied staircase."
+    },
+    {
+     "key": "chien2",
+     "in": 246.5,
+     "out": 263.0,
+     "title": "Un Chien Andalou",
+     "credit": "Luis Buñuel & Salvador Dalí, 1929",
+     "note": "Ants in the palm dissolving to armpit hair and a sea urchin."
+    },
+    {
+     "key": "vertov",
+     "in": 3905.0,
+     "out": 3921.0,
+     "title": "Man with a Movie Camera",
+     "credit": "Dziga Vertov, 1929",
+     "note": "Window shadows and crowds."
+    },
+    {
+     "key": "vertov",
+     "ranges": [
+      {
+       "in": 3921.0,
+       "out": 3928.8
+      },
+      {
+       "in": 3990.5,
+       "out": 3998.0
+      }
+     ],
+     "title": "Man with a Movie Camera",
+     "credit": "Dziga Vertov, 1929",
+     "note": "Ends on the eye in the lens (~3995 s). Skips 3982–3990 (rapid cutting flagged by the flash check). The film's end title starts ~3998.5 s."
+    }
+   ]
+  },
+  {
+   "card": "III. VISUAL MUSIC",
+   "years": "1921–1930",
+   "clips": [
+    {
+     "key": "opus1",
+     "in": 30.0,
+     "out": 60.0,
+     "title": "Lichtspiel Opus I",
+     "credit": "Walter Ruttmann, 1921",
+     "note": "Title card runs to ~20 s; start after it."
+    },
+    {
+     "key": "rhythmus",
+     "in": 22.0,
+     "out": 40.0,
+     "title": "Rhythmus 21",
+     "credit": "Hans Richter, 1921",
+     "note": "Title cards run to ~20 s."
+    },
+    {
+     "key": "eggeling",
+     "in": 240.0,
+     "out": 264.0,
+     "title": "Symphonie Diagonale",
+     "credit": "Viking Eggeling, 1924"
+    },
+    {
+     "key": "opus3",
+     "in": 38.0,
+     "out": 58.0,
+     "title": "Lichtspiel Opus III",
+     "credit": "Walter Ruttmann, 1924"
+    },
+    {
+     "key": "opus4",
+     "in": 126.0,
+     "out": 148.0,
+     "title": "Lichtspiel Opus IV",
+     "credit": "Walter Ruttmann, 1925"
+    },
+    {
+     "key": "ballet",
+     "ranges": [
+      {
+       "in": 209.5,
+       "out": 221.5
+      },
+      {
+       "in": 330.0,
+       "out": 344.1
+      }
+     ],
+     "title": "Ballet Mécanique",
+     "credit": "Fernand Léger & Dudley Murphy, 1924",
+     "note": "Flash-safe stretches only: 198.4–203.9, ~209, and 222.6–230.8 strobe."
+    },
+    {
+     "key": "ballet",
+     "in": 388.0,
+     "out": 398.0,
+     "title": "Ballet Mécanique",
+     "credit": "Fernand Léger & Dudley Murphy, 1924",
+     "note": "The washerwoman climbing the stairs, looped."
+    },
+    {
+     "key": "anemic",
+     "in": 27.0,
+     "out": 57.0,
+     "title": "Anémic Cinéma",
+     "credit": "Marcel Duchamp, 1926",
+     "note": "Rotating spirals alternate with punning text discs."
+    },
+    {
+     "key": "study6",
+     "in": 13.5,
+     "out": 39.5,
+     "title": "Study No. 6",
+     "credit": "Oskar Fischinger, 1930",
+     "note": "Avoid 10–13 s (flash)."
+    },
+    {
+     "key": "tusalava",
+     "in": 286.0,
+     "out": 308.0,
+     "title": "Tusalava",
+     "credit": "Len Lye, 1929"
+    }
+   ]
+  }
+ ],
+ "alternates": [
+  {
+   "key": "moon",
+   "around": "400–421",
+   "what": "Launch crowd and the moon in the sky",
+   "checked": false
+  },
+  {
+   "key": "hotel",
+   "around": "360–384",
+   "what": "Self-shaving",
+   "checked": false
+  },
+  {
+   "key": "cohl",
+   "around": "37–72",
+   "what": "More morphing line animation",
+   "checked": false
+  },
+  {
+   "key": "opus2",
+   "around": "15–190",
+   "what": "Ruttmann Opus II (unused so far)",
+   "checked": false
+  },
+  {
+   "key": "anemic",
+   "around": "57–378",
+   "what": "More spirals",
+   "checked": false
+  },
+  {
+   "key": "tusalava",
+   "around": "22–505",
+   "what": "The whole film is usable",
+   "checked": false
+  },
+  {
+   "key": "vertov",
+   "around": "84, 1092, 3864",
+   "what": "Projector, superimposition, split screen",
+   "checked": false
+  },
+  {
+   "key": "seashell",
+   "around": "915–931",
+   "what": "Close-up eyes",
+   "checked": false
+  },
+  {
+   "key": "emak",
+   "around": "540–560",
+   "what": "Spinning lights",
+   "checked": false
+  },
+  {
+   "key": "usher",
+   "around": "192–208",
+   "what": "Prism shots",
+   "checked": false
+  },
+  {
+   "key": "entracte",
+   "around": "672–714",
+   "what": "Roller-coaster ride",
+   "checked": false
+  },
+  {
+   "key": "ghosts",
+   "around": "312–324",
+   "what": "Negative faces",
+   "checked": false
+  }
+ ]
+}
