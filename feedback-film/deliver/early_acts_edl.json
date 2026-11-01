@@ -4,8 +4,8 @@
  "chapters": [
   {
    "card": "I. RAZOR",
-   "years": "1901–1929",
-   "suggested_order_note": "Opens on Buñuel's razor, then the first trick films, and closes on Méliès's rocket in the moon's eye.",
+   "years": "1928–1929",
+   "suggested_order_note": "The treatment's RAZOR: Buñuel and Dulac from the public-domain set. Cornell's Rose Hobart (1936) and Deren's Meshes of the Afternoon (1943) aren't in this set: not clearly public domain, so they come from the PC's own clips if used.",
    "clips": [
     {
      "key": "chien2",
@@ -16,51 +16,19 @@
      "note": "Razor, moon, hand at the eye. Out point is before the blade touches the eye (slice ~95 s); keep it for a class audience. This upload is the 1960 sound version; its title cards run 0–60 s."
     },
     {
-     "key": "rubber",
-     "in": 72.0,
-     "out": 90.0,
-     "title": "The Man with the Rubber Head",
-     "credit": "Georges Méliès, 1901",
-     "note": "The head inflating."
+     "key": "seashell",
+     "in": 760.0,
+     "out": 774.0,
+     "title": "The Seashell and the Clergyman",
+     "credit": "Germaine Dulac, 1928"
     },
     {
-     "key": "melomane",
-     "in": 30.0,
-     "out": 50.0,
-     "title": "The Melomaniac",
-     "credit": "Georges Méliès, 1903",
-     "note": "Heads as notes on a stave."
-    },
-    {
-     "key": "hotel",
-     "in": 204.0,
-     "out": 220.0,
-     "title": "The Electric Hotel",
-     "credit": "Segundo de Chomón, 1908",
-     "note": "Boots that move by themselves. The upload's title card says 1905; the film is usually dated 1908."
-    },
-    {
-     "key": "hotel",
-     "in": 322.0,
-     "out": 334.0,
-     "title": "The Electric Hotel",
-     "credit": "Segundo de Chomón, 1908",
-     "note": "Hair combing itself."
-    },
-    {
-     "key": "cohl",
-     "in": 7.0,
-     "out": 37.0,
-     "title": "Fantasmagorie",
-     "credit": "Émile Cohl, 1908"
-    },
-    {
-     "key": "moon",
-     "in": 421.5,
-     "out": 441.5,
-     "title": "A Trip to the Moon",
-     "credit": "Georges Méliès, 1902",
-     "note": "The moon approaches; the rocket hits its eye at ~439.2 s."
+     "key": "chien2",
+     "in": 246.5,
+     "out": 263.0,
+     "title": "Un Chien Andalou",
+     "credit": "Luis Buñuel & Salvador Dalí, 1929",
+     "note": "Ants in the palm dissolving to armpit hair and a sea urchin."
     }
    ]
   },
@@ -101,27 +69,12 @@
      "note": "Flying hats; starts after the revolver shots."
     },
     {
-     "key": "seashell",
-     "in": 760.0,
-     "out": 774.0,
-     "title": "The Seashell and the Clergyman",
-     "credit": "Germaine Dulac, 1928"
-    },
-    {
      "key": "usher",
      "in": 674.0,
      "out": 691.0,
      "title": "The Fall of the House of Usher",
      "credit": "James Sibley Watson & Melville Webber, 1928",
      "note": "Prism-multiplied staircase."
-    },
-    {
-     "key": "chien2",
-     "in": 246.5,
-     "out": 263.0,
-     "title": "Un Chien Andalou",
-     "credit": "Luis Buñuel & Salvador Dalí, 1929",
-     "note": "Ants in the palm dissolving to armpit hair and a sea urchin."
     },
     {
      "key": "vertov",
@@ -313,5 +266,57 @@
    "what": "Negative faces",
    "checked": false
   }
- ]
+ ],
+ "optional_trick_films": {
+  "note": "Méliès, Chomón and Cohl (1901–1908). Optional until the user decides where they go.",
+  "clips": [
+   {
+    "key": "rubber",
+    "in": 72.0,
+    "out": 90.0,
+    "title": "The Man with the Rubber Head",
+    "credit": "Georges Méliès, 1901",
+    "note": "The head inflating."
+   },
+   {
+    "key": "melomane",
+    "in": 30.0,
+    "out": 50.0,
+    "title": "The Melomaniac",
+    "credit": "Georges Méliès, 1903",
+    "note": "Heads as notes on a stave."
+   },
+   {
+    "key": "hotel",
+    "in": 204.0,
+    "out": 220.0,
+    "title": "The Electric Hotel",
+    "credit": "Segundo de Chomón, 1908",
+    "note": "Boots that move by themselves. The upload's title card says 1905; the film is usually dated 1908."
+   },
+   {
+    "key": "hotel",
+    "in": 322.0,
+    "out": 334.0,
+    "title": "The Electric Hotel",
+    "credit": "Segundo de Chomón, 1908",
+    "note": "Hair combing itself."
+   },
+   {
+    "key": "cohl",
+    "in": 7.0,
+    "out": 37.0,
+    "title": "Fantasmagorie",
+    "credit": "Émile Cohl, 1908"
+   },
+   {
+    "key": "moon",
+    "in": 421.5,
+    "out": 441.5,
+    "title": "A Trip to the Moon",
+    "credit": "Georges Méliès, 1902",
+    "note": "The moon approaches; the rocket hits its eye at ~439.2 s."
+   }
+  ]
+ }
 }

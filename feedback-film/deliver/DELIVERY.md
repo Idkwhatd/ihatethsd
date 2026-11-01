@@ -11,11 +11,11 @@ every scene, so I didn't.
 | Plays | File | Length | Stretch vs v3 |
 | --- | --- | --- | --- |
 | before I. RAZOR | `see1_picture.mp4` | 48 s | 1.27× |
-| before II. DREAM | `see3_picture.mp4` | 54 s | see `cues.json` |
-| before III. VISUAL MUSIC | `see2_picture.mp4` | 54 s | see `cues.json` |
-| before IV | `see4_picture.mp4` | 36 s | see `cues.json` |
-| before V | `see5_picture.mp4` | 38 s | see `cues.json` |
-| before VIII | `see6_picture.mp4` | 58 s | see `cues.json` |
+| before II. DREAM | `see3_picture.mp4` | 54 s | 1.26× |
+| before III. VISUAL MUSIC | `see2_picture.mp4` | 54 s | 1.28× |
+| before IV | `see4_picture.mp4` | 36 s | 1.21× |
+| before V | `see5_picture.mp4` | 38 s | 1.10× |
+| before VIII | `see6_picture.mp4` | 58 s | 1.27× |
 
 The animations follow the narration: each visual stage starts on a sentence. To lengthen the interludes, I stretched
 every sentence time by the same factor, so **the new narration should start each sentence at the `start` times in
@@ -33,14 +33,16 @@ blind-spot test → Muybridge, cave → shadows → "first movie theater", Blake
 ## 2. Score — `score/`
 
 `v3_<act>.flac` is the v3 score for each v3 chapter, for reference (spans in `v3_spans.json`). Mapping to the new
-chapters: `v3_tricks` (ragtime stride) suits I. RAZOR's trick films; `v3_dreams` suits II. DREAM, and its Buñuel cue
-cuts to silence with the picture; `v3_vmusic` (minimalist marimba pulse) suits III. VISUAL MUSIC. `v3_light`,
+chapters: `v3_dreams` (slow waltz; its Buñuel cue cuts to silence with the picture) suits I. RAZOR and II. DREAM;
+`v3_vmusic` (minimalist marimba pulse) suits III. VISUAL MUSIC; `v3_tricks` (ragtime stride) goes with the optional
+trick films. `v3_light`,
 `v3_signal`, `v3_cut`, `v3_cyber` and `v3_noise` follow their v3 chapters, whose recreations differ from your real clips.
 
 ## 3. Early acts EDL — `early_acts_edl.json`
 
 Source in/out points (seconds) for I. RAZOR / II. DREAM / III. VISUAL MUSIC against `pipeline/footage_list.json`; fetch
-the sources with `pipeline/fetch_footage.py`. 26 cuts, all used in v3 and flash-checked, plus 12 unchecked alternates.
+the sources with `pipeline/fetch_footage.py`. RAZOR follows the treatment (Buñuel, Dulac); the Méliès/Chomón/Cohl trick
+films sit under `optional_trick_films` until the user places them. 26 cuts in total, all used in v3 and flash-checked, plus 12 unchecked alternates.
 Two entries use `ranges` (two stretches back to back) to skip strobing passages. Notes per cut flag what to avoid:
 the moment the razor touches the eye, the caricature dolls in *Entr'acte*, and the flicker in *Ballet Mécanique*,
 *Le Retour à la raison* and Fischinger's *Study No. 6*.

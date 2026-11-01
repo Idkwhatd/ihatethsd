@@ -1,0 +1,289 @@
+{
+ "see1": {
+  "duration": 48.0,
+  "scene": "eyeevo",
+  "stretch": 1.2687,
+  "labels": [
+   {
+    "title": "On seeing 1 · The first eye",
+    "sub": "science"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "Before cinema, before art, there was the eye.",
+    "start": 1.27,
+    "end": 5.3
+   },
+   {
+    "text": "It began as almost nothing: a patch of light-sensitive cells that could tell day from night.",
+    "start": 5.68,
+    "end": 13.26
+   },
+   {
+    "text": "Fold that patch into a cup, and it can tell where the light is coming from.",
+    "start": 13.64,
+    "end": 19.51
+   },
+   {
+    "text": "Narrow the cup into a pinhole, and an image appears.",
+    "start": 19.89,
+    "end": 24.42
+   },
+   {
+    "text": "Fill it with a lens, and the image sharpens.",
+    "start": 24.8,
+    "end": 28.61
+   },
+   {
+    "text": "In 1994, the biologists Dan-Eric Nilsson and Susanne Pelger estimated that this could happen in fewer than four hundred thousand generations.",
+    "start": 28.99,
+    "end": 41.8
+   },
+   {
+    "text": "In the history of life, that's a blink.",
+    "start": 42.19,
+    "end": 45.48
+   }
+  ]
+ },
+ "see3": {
+  "duration": 54.0,
+  "scene": "perceive",
+  "stretch": 1.2632,
+  "labels": [
+   {
+    "title": "On seeing 3 · The brain builds the picture",
+    "sub": "science"
+   },
+   {
+    "title": "The Horse in Motion",
+    "sub": "Eadweard Muybridge, 1878"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "And the picture you see isn't what your eyes record.",
+    "start": 1.26,
+    "end": 5.59
+   },
+   {
+    "text": "Your eyes jump about three times a second, and your brain hides the jumps.",
+    "start": 5.97,
+    "end": 11.78
+   },
+   {
+    "text": "It also paints over your blind spot.",
+    "start": 12.16,
+    "end": 15.47
+   },
+   {
+    "text": "Try it: close your left eye, stare at the cross, and lean toward the screen until the dot disappears.",
+    "start": 15.85,
+    "end": 23.75
+   },
+   {
+    "text": "And it turns separate pictures into motion.",
+    "start": 31.68,
+    "end": 35.54
+   },
+   {
+    "text": "Show it a series of still photographs, like Eadweard Muybridge's galloping horse from 1878, and it invents movement.",
+    "start": 35.92,
+    "end": 46.08
+   },
+   {
+    "text": "Every film in this story depends on that trick.",
+    "start": 46.46,
+    "end": 50.44
+   }
+  ]
+ },
+ "see2": {
+  "duration": 54.0,
+  "scene": "fisheye",
+  "stretch": 1.2832,
+  "labels": [
+   {
+    "title": "On seeing 2 · A fish's eye",
+    "sub": "science"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "Your eyes are fish eyes.",
+    "start": 1.28,
+    "end": 3.69
+   },
+   {
+    "text": "Around five hundred million years ago, early jawless fish already had camera eyes, with a lens, a retina, and muscles to aim them.",
+    "start": 4.07,
+    "end": 15.37
+   },
+   {
+    "text": "We inherited the design, flaws included.",
+    "start": 15.75,
+    "end": 19.73
+   },
+   {
+    "text": "Our retina is wired backwards: its nerves run in front of the light-sensitive cells, and where they leave the eye there's a hole, the blind spot.",
+    "start": 20.11,
+    "end": 31.41
+   },
+   {
+    "text": "Fish, reptiles and birds have four kinds of color cells.",
+    "start": 31.79,
+    "end": 36.86
+   },
+   {
+    "text": "Our mammal ancestors, living at night in the age of the dinosaurs, lost two.",
+    "start": 37.24,
+    "end": 43.92
+   },
+   {
+    "text": "Our primate ancestors won one back.",
+    "start": 44.3,
+    "end": 47.83
+   },
+   {
+    "text": "That's why you see the colors you see.",
+    "start": 48.22,
+    "end": 51.42
+   }
+  ]
+ },
+ "see4": {
+  "duration": 36.0,
+  "scene": "cave",
+  "stretch": 1.2135,
+  "labels": [
+   {
+    "title": "On seeing 4 · The cave",
+    "sub": "philosophy · Plato, Republic, c. 375 BC"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "Philosophers were worried about seeing long before cinema.",
+    "start": 1.21,
+    "end": 5.95
+   },
+   {
+    "text": "Around 375 BC, Plato imagined prisoners chained in a cave, facing a wall.",
+    "start": 6.31,
+    "end": 14.62
+   },
+   {
+    "text": "Behind them burns a fire, and people carry objects past it, so the prisoners see only shadows.",
+    "start": 14.99,
+    "end": 22.75
+   },
+   {
+    "text": "They take the shadows for the world.",
+    "start": 23.12,
+    "end": 25.94
+   },
+   {
+    "text": "It's the oldest description of a movie theater, and a warning: what you see may be a projection.",
+    "start": 26.3,
+    "end": 33.22
+   }
+  ]
+ },
+ "see5": {
+  "duration": 38.0,
+  "scene": "doors",
+  "stretch": 1.0962,
+  "labels": [
+   {
+    "title": "On seeing 5 · The doors of perception",
+    "sub": "philosophy"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "Around 1790, the poet William Blake wrote that if the doors of perception were cleansed, everything would appear as it is: infinite.",
+    "start": 1.1,
+    "end": 10.55
+   },
+   {
+    "text": "In 1953, the writer Aldous Huxley took mescaline with the psychiatrist Humphry Osmond, and borrowed Blake's phrase for a book: The Doors of Perception.",
+    "start": 10.88,
+    "end": 22.25
+   },
+   {
+    "text": "A few years later, Osmond proposed a new word for drugs that seemed to reveal the mind.",
+    "start": 22.58,
+    "end": 29.1
+   },
+   {
+    "text": "Psychedelic.",
+    "start": 29.43,
+    "end": 31.13
+   },
+   {
+    "text": "From the Greek: mind-manifesting.",
+    "start": 31.46,
+    "end": 34.36
+   }
+  ]
+ },
+ "see6": {
+  "duration": 58.0,
+  "scene": "homunculus",
+  "stretch": 1.2666,
+  "labels": [
+   {
+    "title": "On seeing 6 · Who is watching?",
+    "sub": "philosophy · René Descartes, La Dioptrique, 1637"
+   }
+  ],
+  "sentences": [
+   {
+    "text": "In 1637, René Descartes described cutting away the back of an ox's eye, and seeing the world projected on it, small and upside down.",
+    "start": 1.27,
+    "end": 13.58
+   },
+   {
+    "text": "But that raised a puzzle.",
+    "start": 13.96,
+    "end": 16.47
+   },
+   {
+    "text": "If the eye makes a picture, who looks at the picture?",
+    "start": 16.85,
+    "end": 21.06
+   },
+   {
+    "text": "A little person inside the head?",
+    "start": 21.44,
+    "end": 24.48
+   },
+   {
+    "text": "Then who looks inside that little person's head?",
+    "start": 24.86,
+    "end": 28.94
+   },
+   {
+    "text": "Philosophers call it an infinite regress, and it looks a lot like video feedback.",
+    "start": 29.32,
+    "end": 36.0
+   },
+   {
+    "text": "Today, many neuroscientists say the brain doesn't watch a picture at all: it predicts one, and checks its guess against the light.",
+    "start": 36.38,
+    "end": 46.39
+   },
+   {
+    "text": "Perception, in their phrase, is a controlled hallucination.",
+    "start": 46.77,
+    "end": 51.93
+   },
+   {
+    "text": "Which brings us to the machines.",
+    "start": 52.31,
+    "end": 55.07
+   }
+  ]
+ }
+}
