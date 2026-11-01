@@ -15,7 +15,7 @@ interludes — three on the science of the eye, three on the philosophy of seein
 intros for added works (Švankmajer's *Dimensions of Dialogue*, Rybczyński's *Capriccio No. 24*, *Tarantella*); T4 a
 fact-and-clarity review of the interludes.
 
-**Rules:** English; sentences ≤ 25 words; ≤ 120 words per chapter; every fact with a source (title + URL or book);
+**Rules:** English (any Portuguese must be European Portuguese, never PT-BR); sentences ≤ 25 words; ≤ 120 words per chapter; every fact with a source (title + URL or book);
 no lyrics or long quotes; mark anything uncertain.
 
 **Reply format** (the user will paste it to Claude):

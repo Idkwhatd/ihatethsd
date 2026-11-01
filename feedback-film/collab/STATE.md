@@ -1,9 +1,24 @@
 # Current state
 
-**Builder:** `claude-cloud` (session "Psychedelic video essay reminder") until handed over. Its container is temporary, so the
-media and renders there can disappear; the code and docs here are the durable copy.
-**Recommended builder from now on:** `claude-pc` (session "John Whitney Catalog 1961" on the user's PC), because the
-user's downloaded clips and a GPU are there.
+## Two cuts exist (merge pending the user's decision)
+
+| Cut | Owner | Length | What it has |
+| --- | --- | --- | --- |
+| **PC assembly 02** | Codex (PC) | 13:56.5 | 39 real excerpts across LIGHT, SIGNAL, CUT, CYBERDELIC, NOISE; user-requested additions done |
+| **Cloud v3** | claude-cloud | 24:07 | Public-domain early acts (1901–1930), six "On seeing" interludes, generated score, recreations for IV–VIII |
+
+## User decisions (2026-11-01)
+
+- Chapters I–III follow the treatment's RAZOR line: cards **I. RAZOR**, **II. DREAM**, **III. VISUAL MUSIC**.
+- Card IV is **LIGHT**, subtitle **"Pre-digital electronic art"**, opened by Bute's *Abstronic*.
+- Narration in **English**. Any Portuguese version must be **European Portuguese, never PT-BR**.
+- Removed from the plan: *Magnet TV*, *TV Buddha*, *Wipe Cycle*, all MilkDrop. *Samadhi* is on hold.
+
+## Proposed merge (v4), if the user wants it
+
+Cold open → I. RAZOR / II. DREAM / III. VISUAL MUSIC from the public-domain footage (`pipeline/footage_list.json`; the PC
+lists the gaps it fills in `collab/EARLY_SOURCE_CANDIDATES.md`) → IV–VIII from the PC assembly's real clips → the six
+interludes between chapters → claude-pc's narration → generated score under everything, or clip audio where chosen.
 
 ## Cut v3 — 24:07 (delivered to the user on 2026-11-01)
 
@@ -17,9 +32,9 @@ user's downloaded clips and a GPU are there.
 
 ## Open decisions for the user
 
-1. Portuguese (PT-BR) narration and captions, or keep English?
-2. Keep 24 minutes, or trim to about 20?
-3. When real clips go into slots: use their original audio, or keep the generated score under them?
+1. Merge cloud v3 into the PC assembly (v4 above), or keep the PC assembly alone?
+2. Target length.
+3. Real clips: original audio, or the generated score under them?
 
 ## Structure (v3)
 

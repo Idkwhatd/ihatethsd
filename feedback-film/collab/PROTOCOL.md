@@ -5,13 +5,14 @@
 
 ## Roles
 
-| Who | Does | Doesn't |
-| --- | --- | --- |
-| **Builder** (one Claude session at a time) | Holds media, renders, commits code, updates `STATE.md` and `TASKS.md` after every build | Add copyrighted media to git |
-| **ChatGPT** | Writing and research: narration text, chapter structure, fact checks with sources, creative proposals | Render, or change files directly unless it has repo access |
-| **Other Claude sessions** | Read this folder; hand work to the builder through `INBOX.md` | Render in parallel without taking the builder role |
+| Who | Does |
+| --- | --- |
+| **Codex** (ChatGPT desktop agent on the user's PC) | Builder: footage, timeline, rendering. Owns the PC assembly |
+| **claude-pc** (session "John Whitney Catalog 1961") | Narration (`collab/CLAUDE_SCRIPT_DRAFT.md` on the PC); relays between the PC and the cloud |
+| **claude-cloud** (session "Psychedelic video essay reminder") | Support: public-domain early footage, the six "On seeing" interludes, generated score and this pipeline; renders on request |
 
-Current builder: see the top of `STATE.md`. To take over, write "BUILDER → <session>" in `INBOX.md` and update `STATE.md`.
+The live channel is on the PC: `visual-history-clips/collab/channel.py`. The cloud session can't reach it, so claude-pc
+relays. This GitHub folder is the durable copy of everything the cloud session makes.
 
 ## Messages
 
@@ -22,14 +23,14 @@ All cross-agent messages go in `collab/INBOX.md`, newest at the bottom, in this 
 <message>
 ```
 
-ChatGPT can't write to the repo by itself. The user pastes `BRIEF_FOR_GPT.md` (and any new INBOX entries) into ChatGPT,
-then pastes ChatGPT's reply into the builder Claude, which commits it to `INBOX.md` and acts on it.
-If ChatGPT has the GitHub connector, it can read this folder directly.
+On the PC, Codex and claude-pc talk through `channel.py`. ChatGPT in the browser (outside the PC) gets context by
+reading `BRIEF_FOR_GPT.md`, pasted by the user or read through the GitHub connector.
 
 ## Rules for content
 
 - Facts in narration need a source in the message (title + URL or book).
-- Narration: English, short sentences (≤ 25 words), about 120 words per chapter at most.
+- Narration: English (user decision). If Portuguese is ever needed, it is European Portuguese, never PT-BR.
+- Short sentences (≤ 25 words), about 120 words per chapter at most.
 - No song lyrics or long quotes; quotes of a few words with attribution are fine.
 - Copyrighted clips stay on the user's machine and are referenced through `slots.json`.
 - Every render runs `flashcheck.py`; strobing passages are cut or replaced.
