@@ -1,0 +1,512 @@
+{
+ "chien": {
+  "id": "UnChienAndalou1929_201807",
+  "server": "dn600204.us.archive.org",
+  "dir": "/0/items/UnChienAndalou1929_201807",
+  "files": [
+   [
+    "Un Chien Andalou 1929.ogv",
+    96257240,
+    "Ogg Video",
+    "1286.06"
+   ],
+   [
+    "Un Chien Andalou 1929.mpg",
+    102848512,
+    "MPEG2",
+    "1285.98"
+   ],
+   [
+    "Un Chien Andalou 1929.mp4",
+    133215807,
+    "h.264",
+    "1286.08"
+   ]
+  ]
+ },
+ "chien2": {
+  "id": "LuisBunuelUnChienAndalou1928YouTube",
+  "server": "dn600300.us.archive.org",
+  "dir": "/0/items/LuisBunuelUnChienAndalou1928YouTube",
+  "files": [
+   [
+    "Luis Bu\u00f1uel  Un Chien andalou (1928) - YouTube.ogv",
+    72602977,
+    "Ogg Video",
+    "949.65"
+   ],
+   [
+    "Luis Bu\u00f1uel  Un Chien andalou (1928) - YouTube.mp4",
+    98158344,
+    "h.264",
+    "949.67"
+   ]
+  ]
+ },
+ "moon": {
+  "id": "levoyagedanslalune_georgesmelies",
+  "server": "ia903105.us.archive.org",
+  "dir": "/24/items/levoyagedanslalune_georgesmelies",
+  "files": [
+   [
+    "1902 - Le Voyage dans la Lune - fic cient.ia.mp4",
+    89069152,
+    "h.264 IA",
+    "873.22"
+   ],
+   [
+    "1902 - Le Voyage dans la Lune - fic cient.mp4",
+    1783350402,
+    "MPEG4",
+    "873.17"
+   ]
+  ]
+ },
+ "rubber": {
+  "id": "the-man-with-the-rubber-head-1901-directed-by-georges-melies",
+  "server": "dn600301.us.archive.org",
+  "dir": "/0/items/the-man-with-the-rubber-head-1901-directed-by-georges-melies",
+  "files": [
+   [
+    "The Man with the Rubber Head (1901) Directed by Georges M\u00e9li\u00e8s.mp4",
+    16061067,
+    "MPEG4",
+    "143.72"
+   ]
+  ]
+ },
+ "melomane": {
+  "id": "1903TheMelomaniacLeMelomaneScored",
+  "server": "dn601201.us.archive.org",
+  "dir": "/0/items/1903TheMelomaniacLeMelomaneScored",
+  "files": [
+   [
+    "1903-The Melomaniac (Le Me\u0301lomane)-scored.ogv",
+    8786047,
+    "Ogg Video",
+    "112.01"
+   ],
+   [
+    "1903-The Melomaniac (Le Me\u0301lomane)-scored.mp4",
+    28458329,
+    "MPEG4",
+    "111.98"
+   ]
+  ]
+ },
+ "hotel": {
+  "id": "ElHotelElectrico",
+  "server": "dn601200.us.archive.org",
+  "dir": "/0/items/ElHotelElectrico",
+  "files": [
+   [
+    "SegundoDeChomn-ElHotelElectrico1905.ogv",
+    45314409,
+    "Ogg Video",
+    "571.4"
+   ],
+   [
+    "SegundoDeChomn-ElHotelElectrico1905_512kb.mp4",
+    45620697,
+    "512Kb MPEG4",
+    "571.9"
+   ]
+  ]
+ },
+ "cohl": {
+  "id": "Fantasmagorie",
+  "server": "dn600301.us.archive.org",
+  "dir": "/0/items/Fantasmagorie",
+  "files": [
+   [
+    "Emile Cohl - Fantasmagorie 1908-aEAObel8yIE.mp4",
+    4803755,
+    "MPEG4",
+    "76.88"
+   ],
+   [
+    "Emile Cohl - Fantasmagorie 1908-aEAObel8yIE.ogv",
+    4952166,
+    "Ogg Video",
+    "76.88"
+   ]
+  ]
+ },
+ "opus1": {
+  "id": "LichtspielOpusI",
+  "server": "dn600305.us.archive.org",
+  "dir": "/0/items/LichtspielOpusI",
+  "files": [
+   [
+    "Lichtspiel_Opus_I_(1921).webm",
+    11912870,
+    "WebM",
+    "703.72"
+   ],
+   [
+    "Lichtspiel_Opus_I_(1921).ogv",
+    35347882,
+    "Ogg Video",
+    "703.52"
+   ],
+   [
+    "Lichtspiel_Opus_I_(1921).mp4",
+    61238910,
+    "h.264",
+    "703.76"
+   ]
+  ]
+ },
+ "opus2": {
+  "id": "LichtspielOpusII",
+  "server": "dn800204.us.archive.org",
+  "dir": "/0/items/LichtspielOpusII",
+  "files": [
+   [
+    "Lichtspiel_Opus_II_(1922).webm",
+    6947286,
+    "WebM",
+    "225"
+   ],
+   [
+    "Lichtspiel_Opus_II_(1922).ogv",
+    13731172,
+    "Ogg Video",
+    "224.68"
+   ],
+   [
+    "Lichtspiel_Opus_II_(1922).mp4",
+    19558901,
+    "h.264",
+    "225.04"
+   ]
+  ]
+ },
+ "opus3": {
+  "id": "LichtspielOpusIII",
+  "server": "dn600304.us.archive.org",
+  "dir": "/0/items/LichtspielOpusIII",
+  "files": [
+   [
+    "Lichtspiel_opus_III_(1924).webm",
+    6824377,
+    "WebM",
+    "233.6"
+   ],
+   [
+    "Lichtspiel_opus_III_(1924).ogv",
+    13584230,
+    "Ogg Video",
+    "233.4"
+   ],
+   [
+    "Lichtspiel_opus_III_(1924).mp4",
+    19845178,
+    "h.264",
+    "233.64"
+   ]
+  ]
+ },
+ "opus4": {
+  "id": "LichtspielOpusIV",
+  "server": "dn801200.us.archive.org",
+  "dir": "/0/items/LichtspielOpusIV",
+  "files": [
+   [
+    "Lichtspiel_Opus_IV_(1925).webm",
+    10029173,
+    "WebM",
+    "258.73"
+   ],
+   [
+    "Lichtspiel_Opus_IV_(1925).ogv",
+    16748291,
+    "Ogg Video",
+    "258.76"
+   ],
+   [
+    "Lichtspiel_Opus_IV_(1925).mp4",
+    22534349,
+    "h.264",
+    "258.76"
+   ]
+  ]
+ },
+ "rhythmus": {
+  "id": "Rhythmus21",
+  "server": "dn600204.us.archive.org",
+  "dir": "/0/items/Rhythmus21",
+  "files": [
+   [
+    "Rhytmus21_512kb.mp4",
+    14580916,
+    "512Kb MPEG4",
+    "202.26"
+   ],
+   [
+    "Rhytmus21.ogv",
+    16240087,
+    "Ogg Video",
+    "201.83"
+   ],
+   [
+    "Rhytmus21.mkv",
+    41645568,
+    "Matroska",
+    "202.34"
+   ]
+  ]
+ },
+ "ghosts": {
+  "id": "vormittagsspuk-aka-ghosts-before-breakfast_1928",
+  "server": "dn800300.us.archive.org",
+  "dir": "/0/items/vormittagsspuk-aka-ghosts-before-breakfast_1928",
+  "files": [
+   [
+    "vormittagsspuk-aka-ghosts-before-breakfast_1928.ia.mp4",
+    303276524,
+    "h.264 IA",
+    "541.94"
+   ],
+   [
+    "vormittagsspuk-aka-ghosts-before-breakfast_1928.mp4",
+    305261271,
+    "MPEG4",
+    "541.91"
+   ]
+  ]
+ },
+ "eggeling": {
+  "id": "SymphonieDiagonale",
+  "server": "dn800307.us.archive.org",
+  "dir": "/0/items/SymphonieDiagonale",
+  "files": [
+   [
+    "Symphonie diagonale.ogv",
+    31709330,
+    "Ogg Video",
+    "448.84"
+   ],
+   [
+    "Symphonie diagonale.mp4",
+    46497729,
+    "h.264",
+    "449.24"
+   ],
+   [
+    "Symphonie diagonale.avi",
+    71173190,
+    "Cinepack",
+    "449"
+   ]
+  ]
+ },
+ "retour": {
+  "id": "returnToReasonleRetourLaRaison1923",
+  "server": "dn600308.us.archive.org",
+  "dir": "/0/items/returnToReasonleRetourLaRaison1923",
+  "files": [
+   [
+    "LeRetourALaReasonmanRay1923.ogv",
+    10356788,
+    "Ogg Video",
+    "152.28"
+   ],
+   [
+    "LeRetourALaReasonmanRay1923.mp4",
+    15541655,
+    "h.264",
+    "152.64"
+   ]
+  ]
+ },
+ "emak": {
+  "id": "man-ray-emak-bakia-1927",
+  "server": "dn601208.us.archive.org",
+  "dir": "/0/items/man-ray-emak-bakia-1927",
+  "files": [
+   [
+    "Man-Ray_Emak-Bakia_1927.mp4",
+    95480426,
+    "h.264",
+    "959.29"
+   ],
+   [
+    "Man-Ray_Emak-Bakia_1927.mkv",
+    718071593,
+    "Matroska",
+    "959.23"
+   ]
+  ]
+ },
+ "ballet": {
+  "id": "BalletMcanique",
+  "server": "dn800301.us.archive.org",
+  "dir": "/0/items/BalletMcanique",
+  "files": [
+   [
+    "Ballet m\u00e9canique.ogv",
+    53847696,
+    "Ogg Video",
+    "696.48"
+   ],
+   [
+    "Ballet m\u00e9canique.mp4",
+    72085912,
+    "h.264",
+    "696.64"
+   ],
+   [
+    "Ballet m\u00e9canique.avi",
+    184829740,
+    "Cinepack",
+    "696.64"
+   ]
+  ]
+ },
+ "anemic": {
+  "id": "anemicCinema1926",
+  "server": "dn801205.us.archive.org",
+  "dir": "/0/items/anemicCinema1926",
+  "files": [
+   [
+    "AnemicCinema1926marcelDuchamp.ogv",
+    29487523,
+    "Ogg Video",
+    "401.93"
+   ],
+   [
+    "AnemicCinema1926marcelDuchamp.mp4",
+    41701051,
+    "h.264",
+    "402.44"
+   ]
+  ]
+ },
+ "seashell": {
+  "id": "la-coquille-et-le-clergyman-1928_202507",
+  "server": "ia600900.us.archive.org",
+  "dir": "/10/items/la-coquille-et-le-clergyman-1928_202507",
+  "files": [
+   [
+    "La Coquille et le Clergyman (1928).mp4",
+    239384789,
+    "h.264",
+    "2441.06"
+   ],
+   [
+    "La Coquille et le Clergyman (1928).mkv",
+    2270765792,
+    "Matroska",
+    "2441.01"
+   ]
+  ]
+ },
+ "vertov": {
+  "id": "ChelovekskinoapparatomManWithAMovieCamera",
+  "server": "dn600305.us.archive.org",
+  "dir": "/0/items/ChelovekskinoapparatomManWithAMovieCamera",
+  "files": [
+   [
+    "Chelovek_s_kino-apparatom_512kb.mp4",
+    257515942,
+    "512Kb MPEG4",
+    "4008.96"
+   ],
+   [
+    "Chelovek_s_kino-apparatom.ogv",
+    258554654,
+    "Ogg Video",
+    "4005.88"
+   ],
+   [
+    "Chelovek_s_kino-apparatom.MPEG",
+    2000887808,
+    "MPEG2",
+    "4008.88"
+   ]
+  ]
+ },
+ "usher": {
+  "id": "Fall_of_the_House_of_Usher_1928_Watson",
+  "server": "dn600207.us.archive.org",
+  "dir": "/0/items/Fall_of_the_House_of_Usher_1928_Watson",
+  "files": [
+   [
+    "Fall_of_the_House_of_Usher_512kb.mp4",
+    55548647,
+    "512Kb MPEG4",
+    "765.14"
+   ],
+   [
+    "Fall_of_the_House_of_Usher.ogv",
+    59614692,
+    "Ogg Video",
+    "765.21"
+   ],
+   [
+    "Fall_of_the_House_of_Usher.mp4",
+    79725368,
+    "h.264",
+    "765.24"
+   ],
+   [
+    "Fall_of_the_House_of_Usher.mpeg",
+    115062784,
+    "MPEG2",
+    "765.08"
+   ]
+  ]
+ },
+ "entracte": {
+  "id": "entr-acte-1924-rene-clair",
+  "server": "dn601202.us.archive.org",
+  "dir": "/0/items/entr-acte-1924-rene-clair",
+  "files": [
+   [
+    "Entr'Acte - 1924 - Ren\u00e9 Clair.ia.mp4",
+    991323183,
+    "h.264 IA",
+    "977.23"
+   ],
+   [
+    "Entr'Acte - 1924 - Ren\u00e9 Clair.mp4",
+    991323183,
+    "MPEG4",
+    "977.23"
+   ]
+  ]
+ },
+ "tusalava": {
+  "id": "tusalava_1929",
+  "server": "dn801204.us.archive.org",
+  "dir": "/0/items/tusalava_1929",
+  "files": [
+   [
+    "tusalava_1929.ia.mp4",
+    191061093,
+    "h.264 IA",
+    "525.08"
+   ],
+   [
+    "tusalava_1929.mp4",
+    193760401,
+    "MPEG4",
+    "525.07"
+   ]
+  ]
+ },
+ "study6": {
+  "id": "study-no.-6-studie-nr.-6-oskar-fischinger-1930-480p",
+  "server": "ia601802.us.archive.org",
+  "dir": "/4/items/study-no.-6-studie-nr.-6-oskar-fischinger-1930-480p",
+  "files": [
+   [
+    "Study No. 6 (Studie Nr. 6), Oskar Fischinger, 1930 (480p).mp4",
+    12664728,
+    "MPEG4",
+    "124.5"
+   ]
+  ]
+ }
+}
