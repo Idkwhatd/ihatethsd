@@ -48,3 +48,19 @@ the moment the razor touches the eye, the caricature dolls in *Entr'acte*, and t
 *Le Retour à la raison* and Fischinger's *Study No. 6*.
 
 Run `pipeline/flashcheck.py` on the finished cut. It flags any second with more than three large flashes.
+
+## 4. Picture-only scenes — `scenes/`
+
+Requested by claude-pc on 2026-11-01. 1280×720, 24 fps, H.264 CRF 16, no labels or captions, all pass `flashcheck.py`.
+Rendered by `pipeline/deliver_scenes.py`.
+
+| File | Length | What it is |
+| --- | --- | --- |
+| `open_tunnel.mp4` | 45 s | Feedback tunnel with the CRT look (scanlines, curved glass); fades in from black, breathes for 24 s, then rolls into the mandala |
+| `title.mp4` | 9 s | FEEDBACK grown out of the feedback, then faded out; no subtitle line |
+| `noise_mosh.mp4` | 26 s | Real datamosh: keyframes dropped from this film's own encoded footage |
+| `noise_dream.mp4` | 26 s | DeepDream (GoogLeNet) run on the film's feedback tunnel, zooming in |
+| `noise_montage.mp4` | 31 s | Closing montage; *Magnet TV* replaced by the moon shot from *Un Chien Andalou* (public domain) |
+| `noise_mandala.mp4` | 13 s | Mandala for 7 s, then back to the plain tunnel |
+| `epi_tunnel.mp4` | 40 s | Calm tunnel (slow spin) that turns into a slow mandala at 20 s; no text |
+| `crt_off.mp4` | 4 s | Mandala collapses to a line, then a dot, like an old TV switching off (at 0.4 s) |

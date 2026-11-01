@@ -13,7 +13,7 @@ class TitleNoSub(scenes.Title):
         super().setup()
         self.sub = Image.new("RGBA", (4, 4), (0, 0, 0, 0))
 
-scenes.SCENES["title_nosub"] = TitleNoSub
+scenes.SCENES["title"] = TitleNoSub  # same cues as the v3 title, minus the subtitle
 
 def seg(name, scene, act, beats, idx):
     t, bl = 0.0, []
@@ -23,12 +23,12 @@ def seg(name, scene, act, beats, idx):
         t += dur
     return dict(scene=scene, act=act, idx=idx, f0=0, nf=int(round(t * FPS)), beats=bl)
 
-MONTAGE = ["clip:anemic:120", "clip:rubber:80", "clip:opus4:140", "clip:chien2:88", "clip:ballet:390", "tango",
+MONTAGE = ["clip:anemic:120", "clip:rubber:80", "clip:opus4:140", "clip:chien:88", "clip:ballet:390", "tango",
            "psychedelia", "mosh_still", "clip:tusalava:300", "flame"]
 
 JOBS = [
     ("open_tunnel", seg("open_tunnel", "feedback", "signal", [(24, dict(mode="tunnel", spin=0.4)), (21, dict(mode="mandala", spin=2.0))], 0)),
-    ("title", seg("title", "title_nosub", "open", [(9, {})], 3)),
+    ("title", seg("title", "title", "open", [(9, {})], 3)),
     ("noise_mosh", seg("noise_mosh", "mosh", "noise", [(26, {})], 60)),
     ("noise_dream", seg("noise_dream", "dream", "noise", [(26, {})], 61)),
     ("noise_montage", seg("noise_montage", "montage", "noise", [(31, dict(items=MONTAGE, step=3.1))], 62)),
